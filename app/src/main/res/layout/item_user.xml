@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_margin="4dp"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_avatar"
+        android:src="@drawable/arash"
+        android:layout_width="100dp"
+        android:layout_height="90dp"/>
+
+    <TextView
+        android:textSize="12dp"
+        android:textColor="@color/black"
+        android:id="@+id/user_name"
+        android:layout_gravity="center"
+        tools:text="آرش الطافی"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
